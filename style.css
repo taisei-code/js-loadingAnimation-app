@@ -58,3 +58,17 @@ body {
     "Lucida Sans", Arial, sans-serif;
   font-weight: 700;
 }
+
+.content {
+  position: absolute;
+  color: #fff;
+  font-size: 1.2rem;
+  visibility: hidden;
+  transition: all 0.3s;
+  transition-delay: 0.3s;
+}
+
+.loaded {
+  opacity: 0;
+  transition: all 0.3s;
+}
